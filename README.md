@@ -1,4 +1,5 @@
 # pi-see
+Using the pi camera on a Raspberry Pi 4 B
 
 ## Create sd card
 Download bullseye
@@ -13,11 +14,14 @@ Interfaces tab
 > HDMI port may switch
 
 ## use camera
-``libcamera-vid -t 0``
 
-``libcamera-vid -t 0 --inline --listen -o tcp://0.0.0.0:8888``
+### ssh into the RPI
 
-In VLC (on another machine on the LAN), open network stream ``tcp/h264://raspberrypi.local:8888``
+Run ``libcamera-vid -t 0 --inline --listen -o tcp://0.0.0.0:8888``
+
+### On another machine on the LAN
+- In VLC, select Media > Open Network Stream
+- enter ``tcp/h264://raspberrypi.local:8888``
 
 ## Links and references
 
