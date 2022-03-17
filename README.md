@@ -2,9 +2,13 @@
 Using the pi camera on a Raspberry Pi 4 B
 
 ## Create sd card
-Download bullseye
-Use Raspberry Pi Imager. Select Custom.
-Use ``2021-10-30 raspberry pi os 32 bit
+- Download bullseye
+- Use Raspberry Pi Imager.
+- Select use custom.
+- Choose ``2021-10-30-raspios-bullseye-armhf-full.img``
+- Write SD card
+
+## Setup OS
 Skip setup
 Run raspi-config
 Interfaces tab
