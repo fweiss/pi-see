@@ -8,6 +8,9 @@ Using the pi camera on a Raspberry Pi 4 B
 - Choose ``2021-10-30-raspios-bullseye-armhf-full.img``
 - Write SD card
 
+> Used image from https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-11-08/
+> TODO verify with other images.
+
 ## Setup OS
 Skip setup
 Run raspi-config
